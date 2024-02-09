@@ -1,0 +1,139 @@
+/* home */
+#home{
+    height: 825px !important;
+}
+.headings{
+    font-size: 25px !important;
+}
+#home::before
+{
+    background-size: 820px !important;
+}
+.heading1
+{
+    width: 90% !important;
+    margin-top: -430% !important;
+    margin-left:5% !important;
+    font-size: 20px !important;
+}
+/* about */
+#pic img{
+    width: 300px;
+    height: 350px;
+}
+
+#intro span{
+    font-size: 1.5rem;
+}
+#intro span:hover{
+    font-size: 27px;
+}
+/* Portfolio */
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+.gallery img:hover
+{
+    width: 300px !important;
+    height: 200px !important;
+}
+.box p
+{
+    font-size: 14px;
+}
+/* contact */
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
+.input
+{
+    display: none;
+    width: 80% !important;
+    margin-left: 2% !important;
+}
+#msg
+{
+    display: none;
+}
+#send
+{
+    display: none;
+}
+.meet1,.meet2,.meet3,.meet4
+{
+    width: 55%;
+    height: 150px;
+}
+.meet1
+{
+    margin-top: -20% !important;
+    margin-left: 23% !important;
+}
+.meet2
+{
+    margin-top: 5% !important;
+    margin-left: 23% !important;
+}
+.meet3
+{
+    margin-top: 5% !important;
+    margin-left: 23% !important;
+}
+.meet4
+{
+    margin-top: 5% !important;
+    margin-left: 23% !important;
+}
+
+.gmail p
+{
+    margin-left: 5% !important;
+}
+li
+{
+    display: block !important;
+}
+#loader
+{
+    /* display: none !important; */
+    width: 70% !important;
+    height: 540px !important;
+    padding: 0% !important;
+    margin: 1% !important;
+    background: url(loader1.webp) no-repeat;
+    background-position: center !important;
+    background-size: cover;
+}
+ul
+{
+    margin: 0% !important;
+    padding: 0% !important;
+    list-style: none;
+    text-decoration: none;
+}
+li
+{
+        /* width: 100%; */
+        margin: 0% !important;
+        padding: 0% !important;
+        list-style: none;
+        text-decoration: none;
+}
+li a
+{
+    width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0% !important;
+    padding: 0% !important;
+    list-style: none;
+    text-decoration: none;
+}

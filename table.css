@@ -1,0 +1,97 @@
+/* Navbar */
+.navbar ul{
+    flex-wrap: wrap;
+}
+
+/* Headings */
+.headings{
+    font-size: 30px !important;
+}
+
+
+/* About*/
+#pic{
+    flex-direction: column;
+    align-items: center;
+}
+#pic img{
+    width: 500px;
+    height: 600px;
+}
+#intro h2{
+    text-align: center;
+    padding: 10px;
+    margin-left: 25% !important;
+}
+#intro p
+{
+    width: 100%;
+}
+/* contact */
+.input{
+    width: 60%;
+}
+#msg{
+    width: 55%;
+}
+#send{
+    width: 20%;
+}
+.heading1
+{
+    width: 45%;
+    margin-top: -180% !important;
+    margin-left: -40%;
+    color: white;
+    text-shadow: 2px 3px black;
+}
+.form
+{
+    margin-top: 15% !important;
+}
+.input
+{
+    width: 90% !important;
+    display: none;
+}
+#msg
+{
+    display: none;
+}
+#send
+{
+    display: none;
+}
+.meet1,.meet2,.meet3,.meet4
+{
+    width: 20%;
+}
+.meet1
+{
+    margin-top: -20% !important;
+    margin-left: 2%;
+}
+.meet2
+{
+    margin-top: -19% !important;
+    margin-left: 25%;
+}
+.meet3
+{
+    margin-top: -19% !important;
+    margin-left: 48%;
+}
+.meet4
+{
+    margin-top: -19% !important;
+    margin-left: 71%;
+}
+#loader
+{
+    /* display: none !important; */
+    padding: 0% !important;
+    margin: 0% !important;
+    background: url(loader1.webp) no-repeat;
+    background-position: center !important;
+    background-size: cover;
+}
